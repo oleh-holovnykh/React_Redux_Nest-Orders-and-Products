@@ -1,5 +1,8 @@
+@import './styles/utils/variables';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import 'reset.scss';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import './styles/reset.scss';
+
 
 body {
   margin: 0;
