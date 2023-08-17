@@ -4,11 +4,13 @@ module.exports = {
   extends: ['@mate-academy/eslint-config'],
   ignorePatterns: ['dist', '.eslintrc.cjs', '/.husky/pre-commit'],
   parser: '@typescript-eslint/parser',
-  plugins: ['react-refresh'],
+  plugins: ['react-refresh', 'prettier'],
   rules: {
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
     ],
+    quotes: ['error', 'single'],
+    'prettier/prettier': 'error',
   },
 };

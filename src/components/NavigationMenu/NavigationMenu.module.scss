@@ -1,0 +1,30 @@
+.side-bar {
+  height: 100vh;
+  width: max-content;
+  border-right: 1px solid gray;
+  box-shadow: 5px 0 5px rgb(208, 208, 208, 0.21);
+  padding: 1rem 1rem;
+}
+
+.navigation-list {
+  &__item {
+    position: relative;
+    margin-bottom: 1rem;
+    width: max-content;
+  }
+
+  &__text {
+    margin-left: 5px;
+  }
+}
+
+.active::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width:100%;
+  bottom: -5px;
+  height: 2px;
+  background-color: #5c8e29;
+}
+

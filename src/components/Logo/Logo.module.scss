@@ -1,0 +1,14 @@
+.logo {
+  display: flex;
+  height: 2.25rem;
+  align-items: center;
+
+  &__img {
+    display: block;
+    width: 2.25rem;
+  }
+
+  &__title {
+    margin-left: 5px;
+  }
+}
